@@ -1,0 +1,101 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(45deg, #b9d8e2, #c5a4c6, #ec75a3, #ef968f)
+}
+
+
+
+main {
+    background-color: #edeff1;
+    height: 600px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.list {
+    margin-top: 20px;
+    display: flex;
+    gap: 2rem;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.top-section {
+    border: 2px solid r/ed;
+    width: 60%;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 50px;
+
+
+}
+
+img {
+    display: block;
+}
+
+.profile-pic {
+    width: 30%;
+}
+
+.profile-pic img {
+    width: 100%;
+    height: auto;
+    border: 5px double pink;
+
+}
+
+.top-section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem
+}
+
+.front {
+    line-height: 1.5;
+}
+
+.bottom-section {
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    /* border: 2px solid red; */
+}
+
+.left {
+    width: 310px;
+    /* margin-left: 50px; */
+}
+
+.left h3 {
+    margin-bottom: 10px;
+}
+
+.left p {
+    line-height: 1.5rem;
+}
+
+.right button {
+    line-height: 1.5;
+    padding: 0.8;
+    margin: 5px;
+}
